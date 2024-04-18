@@ -1,0 +1,2 @@
+##Get all hosts that are up
+nmap -oG - 192.168.1.0/24 | grep "Up"
